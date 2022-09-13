@@ -1,0 +1,176 @@
+.mainPage {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../assets/images/manShadow2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position-y: 68%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.mainPageText {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 58%;
+}
+
+.mainPage .background_img {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.detail_1,
+.detail_2,
+.detail_3 {
+    width: 100%;
+    font-size: 1.5rem;
+    color: #CC9544;
+    display: flex;
+    justify-content: space-around;
+    text-shadow: -15px 15px #000000;
+}
+
+
+.detail_2 {
+    font-size: 1.7rem;
+    justify-content: space-evenly;
+    text-shadow: -18px 18px #000000;
+}
+
+.detail_3 {
+    font-size: 1.8rem;
+    text-align: center;
+    text-shadow: -20px 20px #000000;
+}
+
+
+.detail_4 {
+    width: 100%;
+    height: 10vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+
+}
+
+.linkedIn {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a66c2;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.twitter_icon {
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+}
+
+.instagram_icon {
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+}
+
+h1 {
+    cursor: pointer;
+}
+
+h1:hover {
+    color: #69777a;
+}
+
+
+@media only screen and (max-width: 1100px) {
+
+    .mainPage {
+        background-position-y: 70%;
+    }
+
+    .detail_1 {
+        font-size: 1.3rem;
+    }
+
+    .detail_2 {
+        font-size: 1.4rem;
+    }
+
+    .detail_3 {
+        font-size: 1.5rem;
+    }
+
+    .mainPageText {
+        top: 62%;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .mainPage {
+        background-position-y: 72%;
+    }
+
+    .detail_1 {
+        font-size: 1.1rem;
+    }
+
+    .detail_2 {
+        font-size: 1.2rem;
+    }
+
+    .detail_3 {
+        font-size: 1.3rem;
+    }
+
+    .linkedIn,
+    .twitter_icon,
+    .instagram_icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .mainPageText {
+        top: 66%;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .mainPage {
+        background-position-y: 73%;
+    }
+
+    .detail_1 {
+        font-size: 0.9rem;
+    }
+
+    .detail_2 {
+        font-size: 1rem;
+    }
+
+    .detail_3 {
+        font-size: 1.1rem;
+    }
+
+    .linkedIn,
+    .twitter_icon,
+    .instagram_icon {
+        width: 27px;
+        height: 27px;
+        font-size: 0.7rem;
+    }
+
+    .mainPageText {
+        top: 70%;
+    }
+}

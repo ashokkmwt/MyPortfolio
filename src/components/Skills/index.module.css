@@ -1,0 +1,81 @@
+.skillsParent {
+    width: 100%;
+    height: 100vh;
+    color: #CC9544;
+    background-color: #1C0A00;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.SkillsChild {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    background-color: #361500;
+}
+
+.skillsBar {
+    position: absolute;
+    top: 20%;
+}
+
+.myskills1,
+.myskills2,
+.myskills3,
+.myskills4,
+.myskills5 {
+    width: 20%;
+    border-bottom: 1px solid white;
+    /* background-color: #361500; */
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myskills2 {
+    width: 25%;
+}
+
+.myskills3 {
+    width: 30%;
+}
+
+.myskills4 {
+    width: 35%;
+}
+
+.myskills5 {
+    width: 40%;
+}
+
+._vrBorder {
+    border-right: 1px solid white;
+}
+
+/* ._myskills {
+    position: absolute;
+    top: 32%;
+    left: 40.2%;
+    border: 1px solid #603601;
+} */
+
+.backArrowImage {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    cursor: pointer;
+}
+
+.new {
+    position: absolute;
+    bottom: 20%;
+    right: 20%;
+}
