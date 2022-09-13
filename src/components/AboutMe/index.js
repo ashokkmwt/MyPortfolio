@@ -12,9 +12,15 @@ export default function AboutMe() {
                 <img width="100%" height="100%" src={backArrow} alt="back arrow" />
             </div>
             <div className={styles.aboutMeChild}>
-                <h4 className={styles.myName}>Hello, I'm Ashok.</h4>
-                <h4 className={styles.myName}>I am BSC graduate. After being bored of preparing competitive exams, I started my journey as a</h4>
-                <h4 className={styles._ul}>Web App Developer.</h4>
+                <h4 className={styles.myName}><span className={styles._fs}>Since</span> you found your way here, let me give you a little bit of background!<br /><br />
+
+                    I hail from Bhilwara, a small city in Rajasthan, I didn't study computer science, but I've started my journey as a web developer and I'm really enjoying it. I'm transitioning my career from UPSC aspirant to a web developer.<br /><br />
+
+                    I'm an intermediate react developer and constantly improving my ReactJS and Vanilla JavaScript skills.<br /><br />
+
+                    If you're interested in working with me on web app development?<br /><br />
+
+                    Shoot me a DM or email me at 📩 <span className={styles._fs2}>sendtoashokkumawat@gmail.com</span>. Let's chat over a digital coffee! ☕</h4>
             </div>
         </div>
     )

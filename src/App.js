@@ -8,7 +8,6 @@ import SkillsPage from './pages/Skills';
 
 function App() {
   return (
-    <div className="App">
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Main />} />
@@ -19,7 +18,6 @@ function App() {
           <Route path='contact' element={<Contact />} />
         </Routes>
       </BrowserRouter>
-    </div>
   );
 }
 

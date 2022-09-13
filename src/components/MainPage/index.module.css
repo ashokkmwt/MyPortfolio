@@ -152,14 +152,17 @@ h1:hover {
 
     .detail_1 {
         font-size: 0.9rem;
+        text-shadow: unset;
     }
 
     .detail_2 {
         font-size: 1rem;
+        text-shadow: unset;
     }
 
     .detail_3 {
         font-size: 1.1rem;
+        text-shadow: unset;
     }
 
     .linkedIn,

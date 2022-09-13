@@ -1,5 +1,7 @@
 {
-  "name": "portfolio",
+  "name": "My Portfolio",
+  "author": "Ashok Kumawat",
+  "email": "ashok1481997@gmail.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

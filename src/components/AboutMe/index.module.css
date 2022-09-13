@@ -16,15 +16,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
 .myName,
 ._ul {
-    width: fit-content;
+    width: 100%;
+    height: 100%;
     color: #CC9544;
     font-size: 1.2rem;
-    margin-bottom: 10px;
+}
+
+._fs{
+    font-size: 2.5rem;
+}
+._fs2{
+    font-size: 1.5rem;
+    text-decoration: underline;
 }
 
 ._ul {
@@ -65,5 +72,15 @@
 
     .backArrowImage{
         top: 5%;
+    }
+
+    .myName{
+        font-size: 1rem;
+    }
+    ._fs{
+        font-size: 2rem;
+    }
+    ._fs_2{
+        font-size: 1rem;
     }
 }

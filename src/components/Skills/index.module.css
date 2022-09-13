@@ -30,7 +30,6 @@
 .myskills5 {
     width: 20%;
     border-bottom: 1px solid white;
-    /* background-color: #361500; */
     font-size: 1.2rem;
     font-weight: 500;
     display: flex;
@@ -58,12 +57,6 @@
     border-right: 1px solid white;
 }
 
-/* ._myskills {
-    position: absolute;
-    top: 32%;
-    left: 40.2%;
-    border: 1px solid #603601;
-} */
 
 .backArrowImage {
     width: 32px;
@@ -78,4 +71,17 @@
     position: absolute;
     bottom: 20%;
     right: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .myskills1,
+    .myskills2,
+    .myskills3,
+    .myskills4,
+    .myskills5,
+    .skillsBar,
+    .new {
+        font-size: 1rem;
+    }
 }

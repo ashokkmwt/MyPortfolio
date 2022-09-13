@@ -13,7 +13,7 @@ export default function Skills() {
             <div onClick={() => navigate("/")} className={styles.backArrowImage}>
                 <img width="100%" height="100%" src={backArrow} alt="back arrow" />
             </div>
-            <div className={styles.skillsBar}><h2>Skills</h2></div>
+            <h2 className={styles.skillsBar}>Skills</h2>
             <div className={styles.SkillsChild}>
                 <div className={cx(styles.myskills1, styles._vrBorder)}><h4>HTML</h4></div>
                 <div className={styles.myskills1}><h4>CSS</h4></div>
