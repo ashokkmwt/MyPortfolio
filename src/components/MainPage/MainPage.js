@@ -16,8 +16,8 @@ export default function MainPage() {
                     <div className={styles.backgroundImg}>
                         <img className={styles.backgroundImg} width="100%" height="100%" src={MyProfile} alt="profile" />
                     </div>
-                    <h1 className={styles.bio}>I am Web Developer</h1>
                     <h1 className={styles.bio}>Ashok Kumawat</h1>
+                    <h1 className={styles.bio}>Web App Developer</h1>
                 </div>
                 <div className={styles.mainPageText}>
                     <div className={styles.detail_1}>
@@ -32,13 +32,13 @@ export default function MainPage() {
                         <h1 onClick={() => navigate("projects")}>Projects</h1>
                     </div>
                     <div className={styles.detail_4}>
-                        <a href='https://www.linkedin.com' target="_blank" rel="noreferrer" className={styles.linkedIn}>
+                        <a href='https://www.linkedin.com/in/ashok-kumawat-ab270723b/' target="_blank" rel="noreferrer" className={styles.linkedIn}>
                             <h1>in</h1>
                         </a>
-                        <a href='https://www.twitter.com/' target="_blank" rel="noreferrer" className={styles.twitter_icon}>
+                        <a href='https://twitter.com/ASHOKKU77882283' target="_blank" rel="noreferrer" className={styles.twitter_icon}>
                             <img width="100%" height="100%" src={TwitterIcon} alt="Twitter" />
                         </a>
-                        <a href='https://www.instagram.com/' target="_blank" rel="noreferrer" className={styles.instagram_icon}>
+                        <a href='https://www.instagram.com/ashok_kumawat_1111/saved/' target="_blank" rel="noreferrer" className={styles.instagram_icon}>
                             <img width="100%" height="100%" src={InstagramIcon} alt="instagram" />
                         </a>
                     </div>

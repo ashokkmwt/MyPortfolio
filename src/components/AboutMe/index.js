@@ -20,7 +20,7 @@ export default function AboutMe() {
 
                     If you're interested in working with me on web app development?<br /><br />
 
-                    Shoot me a DM or email me at 📩 <span className={styles._fs2}>sendtoashokkumawat@gmail.com</span>. Let's chat over a digital coffee! ☕</h4>
+                    Shoot me a DM or email me at 📩 <span className={styles._fs2}>sendtoashokkumawat@gmail.com</span> . Let's chat over a digital coffee! ☕</h4>
             </div>
         </div>
     )

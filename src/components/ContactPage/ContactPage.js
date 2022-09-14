@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './index.module.css'
 import backArrow from '../../assets/images/backArrow.svg'
 import { useNavigate } from 'react-router-dom';
- 
+
 export default function ContactPage() {
     const navigate = useNavigate();
     return (
@@ -12,7 +12,7 @@ export default function ContactPage() {
             </div>
             <div className={styles.contact}>
                 <h2>Contact Me: 9521719607</h2><br />
-                <h2>Gmail: ashok1481997@gmail.com</h2>
+                <h2>Gmail: sendtoashokkumawat@gmail.com </h2>
             </div>
         </div>
     )

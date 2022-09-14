@@ -75,7 +75,7 @@ export default function Projects() {
         const id = Math.ceil(Math.random() * 1000000);
         return (
           <div key={id} className={styles.projectChild}>
-            <h2>{heading}</h2>
+            <h2 className={styles._fs}>{heading}</h2>
             <h4>{description}</h4>
             <h4>{functionality}</h4>
             <a href={url} target='_blank' rel="noreferrer" >

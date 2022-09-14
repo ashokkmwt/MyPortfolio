@@ -22,7 +22,7 @@
 }
 
 .projectVideo {
-    width: 70%;
+    width: 80%;
     height: 70%;
     margin-left: auto;
     margin-right: auto;
@@ -49,14 +49,25 @@
     top: 10%;
     left: 4%;
     cursor: pointer;
-}
+} 
 
 ._cl {
     color: #CC9544;
 }
 
 @media only screen and (max-width: 600px) {
+    
     .projectChild {
+        height: 50vh;
         text-align: center;
+        margin-top: 10%;
+    }
+
+    .backArrowImage {
+        top: 2%;
+    }
+
+    ._fs{
+        font-size: 1.1rem;
     }
 }

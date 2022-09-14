@@ -1,13 +1,13 @@
 .mainPage {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(#000000,  #361500);
+    background-image: linear-gradient(#000000, #361500);
     display: flex;
     flex-direction: column;
     gap: 30px;
     position: relative;
     color: #CC9544;
-} 
+}
 
 ._profile {
     width: 100%;
@@ -17,12 +17,12 @@
     justify-content: center;
     align-items: center;
     margin-top: 10%;
-    gap: 15px;
+    gap: 10px;
 }
 
 .bio {
-    font-size: 1.5rem;
-    text-shadow: 10px 10px #3a2910;
+    font-size: 2.2rem;
+    text-shadow: 9px 9px #33240d;
     cursor: unset;
 }
 
@@ -49,7 +49,7 @@
 .detail_2,
 .detail_3 {
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #CC9544;
     display: flex;
     justify-content: space-around;
@@ -60,12 +60,12 @@
 
 
 .detail_2 {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     justify-content: space-evenly;
 }
 
 .detail_3 {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     text-align: center;
 }
 
@@ -116,15 +116,19 @@ h1:hover {
 @media only screen and (max-width: 1100px) {
 
     .detail_1 {
-        font-size: 1.3rem;
+        font-size: 0.8rem;
     }
 
     .detail_2 {
-        font-size: 1.4rem;
+        font-size: 0.9rem;
     }
 
     .detail_3 {
-        font-size: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .bio{
+        font-size: 1.8rem;
     }
 }
 
@@ -167,7 +171,7 @@ h1:hover {
     }
 
     .bio {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         text-shadow: 6px 6px #3a2910;
     }
 
@@ -196,11 +200,15 @@ h1:hover {
     }
 
     ._profile {
-        margin-top: 20%;
+        margin-top: 25%;
     }
 
     .bio {
         font-size: 1.1rem;
+    }
+
+    .mainPageText {
+        padding-top: 15%;
     }
 
     .detail_1,
