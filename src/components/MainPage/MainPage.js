@@ -3,6 +3,7 @@ import styles from './index.module.css'
 import TwitterIcon from '../../assets/images/twitterIcon.png'
 import InstagramIcon from '../../assets/images/instagramIcon.png'
 import { useNavigate } from 'react-router-dom'
+import MyProfile from '../../assets/images/newProfile.jpeg'
 
 export default function MainPage() {
 
@@ -11,6 +12,13 @@ export default function MainPage() {
     return (
         <>
             <div className={styles.mainPage}>
+                <div className={styles._profile}>
+                    <div className={styles.backgroundImg}>
+                        <img className={styles.backgroundImg} width="100%" height="100%" src={MyProfile} alt="profile" />
+                    </div>
+                    <h1 className={styles.bio}>I am Web Developer</h1>
+                    <h1 className={styles.bio}>Ashok Kumawat</h1>
+                </div>
                 <div className={styles.mainPageText}>
                     <div className={styles.detail_1}>
                         <h1 onClick={() => navigate("about")}>About Me</h1>

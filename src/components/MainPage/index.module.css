@@ -1,13 +1,39 @@
 .mainPage {
     width: 100%;
     height: 100vh;
-    background-image: url("../../assets/images/manShadow2.jpg");
-    background-size: cover;
-    background-position: center;
-    background-position-y: 68%;
+    background-image: linear-gradient(#000000,  #361500);
     display: flex;
     flex-direction: column;
     gap: 30px;
+    position: relative;
+    color: #CC9544;
+} 
+
+._profile {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    gap: 15px;
+}
+
+.bio {
+    font-size: 1.5rem;
+    text-shadow: 10px 10px #3a2910;
+    cursor: unset;
+}
+
+.bio:hover {
+    color: unset;
+}
+
+.backgroundImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
 }
 
 .mainPageText {
@@ -16,37 +42,31 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 58%;
-}
-
-.mainPage .background_img {
-    width: 100%;
-    height: 100vh;
-    position: relative;
+    top: 55%;
 }
 
 .detail_1,
 .detail_2,
 .detail_3 {
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #CC9544;
     display: flex;
     justify-content: space-around;
-    text-shadow: -15px 15px #000000;
+    text-shadow: 10px 10px #3a2910;
+    text-align: center;
+    margin-bottom: 2%;
 }
 
 
 .detail_2 {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     justify-content: space-evenly;
-    text-shadow: -18px 18px #000000;
 }
 
 .detail_3 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     text-align: center;
-    text-shadow: -20px 20px #000000;
 }
 
 
@@ -95,10 +115,6 @@ h1:hover {
 
 @media only screen and (max-width: 1100px) {
 
-    .mainPage {
-        background-position-y: 70%;
-    }
-
     .detail_1 {
         font-size: 1.3rem;
     }
@@ -110,27 +126,29 @@ h1:hover {
     .detail_3 {
         font-size: 1.5rem;
     }
-
-    .mainPageText {
-        top: 62%;
-    }
 }
 
 @media only screen and (max-width: 960px) {
-    .mainPage {
-        background-position-y: 72%;
+
+    .backgroundImg {
+        width: 130px;
+        height: 130px;
+    }
+
+    .bio {
+        font-size: 1.3rem;
     }
 
     .detail_1 {
-        font-size: 1.1rem;
+        font-size: 12px;
     }
 
     .detail_2 {
-        font-size: 1.2rem;
+        font-size: 14px;
     }
 
     .detail_3 {
-        font-size: 1.3rem;
+        font-size: 15px;
     }
 
     .linkedIn,
@@ -139,30 +157,26 @@ h1:hover {
         width: 32px;
         height: 32px;
     }
-
-    .mainPageText {
-        top: 66%;
-    }
 }
 
 @media only screen and (max-width: 840px) {
-    .mainPage {
-        background-position-y: 73%;
+
+    .backgroundImg {
+        width: 110px;
+        height: 110px;
     }
 
-    .detail_1 {
-        font-size: 0.9rem;
-        text-shadow: unset;
+    .bio {
+        font-size: 1.2rem;
+        text-shadow: 6px 6px #3a2910;
     }
 
-    .detail_2 {
-        font-size: 1rem;
-        text-shadow: unset;
-    }
-
+    .detail_1,
+    .detail_2,
     .detail_3 {
-        font-size: 1.1rem;
-        text-shadow: unset;
+        font-size: 12px;
+        margin-bottom: 5%;
+        text-shadow: 8px 8px #3a2910;
     }
 
     .linkedIn,
@@ -172,8 +186,27 @@ h1:hover {
         height: 27px;
         font-size: 0.7rem;
     }
+}
 
-    .mainPageText {
-        top: 70%;
+@media only screen and (max-width: 600px) {
+
+    .backgroundImg {
+        width: 90px;
+        height: 90px;
+    }
+
+    ._profile {
+        margin-top: 20%;
+    }
+
+    .bio {
+        font-size: 1.1rem;
+    }
+
+    .detail_1,
+    .detail_2,
+    .detail_3 {
+        margin-bottom: 5%;
+        font-size: 10px;
     }
 }
